@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Generated mentor instances
+masters/*
+
+# Keep the demo instance tracked
+!masters/ajiu-shifu/
+!masters/ajiu-shifu/**
+
+# If you later want to keep only structure for generated instances,
+# remove the two lines above and keep specific .gitkeep files instead.
