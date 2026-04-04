@@ -53,6 +53,38 @@
 
 ---
 
+## 推荐的聊天记录提取工具
+
+参考 `前任skill` 的做法，这里补一组可直接放进导出流程的工具链接。
+
+### 微信
+
+- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg)
+  - Windows 端常见微信聊天记录导出工具，社区使用面较广
+- [lqzhgood/Shmily](https://github.com/lqzhgood/Shmily)
+  - 可做多平台聊天记录归档，适合把导出后的聊天进一步整理
+
+说明：
+
+- 之前社区常提到的 `PyWxDump` 目前公开仓库已经移除，不建议再把它写成主推荐项
+- 如果你已经能导出成 `txt / html / json / 截图`，直接喂给本项目就行，不强依赖某一个工具
+
+### QQ
+
+- [Yiyiyimu/QQ-History-Backup](https://github.com/Yiyiyimu/QQ-History-Backup)
+  - QQ 聊天记录备份导出，适合做原始记录导出
+- [QQBackup/qq-win-db-key](https://github.com/QQBackup/qq-win-db-key)
+  - 更偏进阶，适合需要处理 QQ 数据库解密的场景
+- [lqzhgood/Shmily](https://github.com/lqzhgood/Shmily)
+  - 如果你已经拿到 QQ 导出文本，也可以再用它做统一归档
+
+说明：
+
+- QQ 导出生态没有微信那么统一，最稳的方式仍然是：能导出文本就导文本，导不出来就截图
+- 这个项目真正需要的是“可读的聊天材料”，不是强绑定某个导出器
+
+---
+
 ## 安装
 
 ### Codex
@@ -292,6 +324,3 @@ yysls-shifu/
 
 ---
 
-## 一句话说明
-
-这就是一个《燕云十六声》版的“同事.skill 魔改工程”，只不过蒸馏对象从同事换成了师父。

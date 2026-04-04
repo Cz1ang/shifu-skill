@@ -100,7 +100,34 @@ E:\codex\yysls-shifu
 
 ---
 
-## 5. 当前环境注意事项
+## 5. 聊天记录导出建议
+
+如果你还没有现成的微信 / QQ 聊天文本，可以先用这些工具把原材料导出来。
+
+### 微信
+
+- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg)
+- [lqzhgood/Shmily](https://github.com/lqzhgood/Shmily)
+
+补充：
+
+- `PyWxDump` 这个名字社区里很常见，但公开仓库目前已移除，不建议再作为主路径写进安装流程
+- 能导出成文本、HTML、JSON 或截图即可，不要求固定工具
+
+### QQ
+
+- [Yiyiyimu/QQ-History-Backup](https://github.com/Yiyiyimu/QQ-History-Backup)
+- [QQBackup/qq-win-db-key](https://github.com/QQBackup/qq-win-db-key)
+- [lqzhgood/Shmily](https://github.com/lqzhgood/Shmily)
+
+补充：
+
+- QQ 这边更推荐“先导出可读文本，再导入 Skill”
+- 如果没有稳定导出方法，就先保留截图和你自己的整理文本
+
+---
+
+## 6. 当前环境注意事项
 
 如果你在 Windows 下使用，常见情况有两个：
 
@@ -118,7 +145,7 @@ py -3 tools/skill_writer.py --action list --base-dir ./masters
 
 ---
 
-## 6. 创建一个新师父
+## 7. 创建一个新师父
 
 在宿主环境里触发：
 
@@ -135,7 +162,7 @@ py -3 tools/skill_writer.py --action list --base-dir ./masters
 
 ---
 
-## 7. 目录说明
+## 8. 目录说明
 
 ### 主 Skill
 
@@ -159,7 +186,7 @@ py -3 tools/skill_writer.py --action list --base-dir ./masters
 
 ---
 
-## 8. Demo
+## 9. Demo
 
 仓库已自带一个示例实例：
 
@@ -169,7 +196,7 @@ py -3 tools/skill_writer.py --action list --base-dir ./masters
 
 ---
 
-## 9. 常见问题
+## 10. 常见问题
 
 ### Q: 没有微信/QQ导出怎么办？
 
@@ -197,6 +224,6 @@ py -3 tools/skill_writer.py --action list --base-dir ./masters
 
 ---
 
-## 10. 一句话
+## 11. 一句话
 
 安装完以后，这个项目就是一个“把燕云师父蒸馏成数字人格”的 Skill 创建器。
