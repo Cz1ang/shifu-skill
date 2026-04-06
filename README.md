@@ -1,6 +1,8 @@
-# 师父skill
+# 师父 skill / Shifu Skill
 
-> 把微信、QQ、截图、文本里的《燕云十六声》师父聊天材料，蒸馏成一个可调用、可持续进化的师父 Skill。
+> 把微信、QQ、截图、文本里的《燕云十六声》师父聊天材料，蒸馏成一个可调用、可持续进化的师父 skill / shifu skill。
+
+**关键词**：师父 skill、shifu skill、燕云十六声师父、燕云师父 skill
 
 [![Skill](https://img.shields.io/badge/Skill-YYSLS%20Shifu-blue)](#)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](#)
@@ -323,4 +325,3 @@ yysls-shifu/
 - 如果只有一句“他很温柔会带我”，那只能先做低样本版
 
 ---
-
